@@ -40,7 +40,8 @@ saveButton.addEventListener('click', () => {
     );
 
     if (validUser) {
-        alert('acces permitted');
+
+        alert( swal("¡Bienvenido!", "Iniciando secion", "success"))
         
         const user = Credencailes.find(cred => cred.username === inputValue && cred.password === inputValues);
         const firstname = user ? user.firstname : "";

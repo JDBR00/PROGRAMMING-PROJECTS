@@ -24,6 +24,7 @@ nav {
     z-index: 10; 
 }
 
+/*Estilo para el boton creado*/
 #CrateElemet{
     background-color: #00ff08;
     border: 1px solid #000000;
@@ -31,6 +32,7 @@ nav {
     border-radius: 8px;
 }
 
+/*Estilo para el boton de eliminar*/
 #deleteAllButton{
     background-color: #00ff08;
     border: 1px solid #000000;
@@ -41,6 +43,7 @@ nav {
     border-radius: 8px;
 }
 
+/*Estilo para el nombre del sitio*/
 #name a { 
     text-decoration: none;
     color: white;
@@ -133,15 +136,6 @@ nav {
     background-color: #45a049;
 }
 
-/*Estilo para login*/
-#login {
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    width: 300px;
-    text-align: center;
-}
 
 /*Estilo para las etiquetas*/
 label {
@@ -151,15 +145,6 @@ label {
     color: #333;
 }
 
-/*Estilo para los input*/
-input {
-    width: calc(100% - 20px);
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
-}
 
 /*Estilo para el botón*/
 #saveButton {

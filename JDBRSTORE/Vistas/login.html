@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/8743/8743996.png">
+    <link rel="stylesheet" href="/JDBRSTORE/Styles/LOGIN.css">
     <link rel="stylesheet" href="/JDBRSTORE/Styles/HOME.css">
 
-    <title>Login</title>
+
+<title>Login</title>
 </head>
 <body>
     <nav>
@@ -22,20 +24,30 @@
     </nav>
         
     
-    <div id="login">
-        <label for="userInput">Ingresa su usuario:</label>
-        <input type="text" id="userInput">
+    <div class="login">
+
+        <input type="email" id="email" placeholder=" " required />
+        <label for="email">Correo Electrónico</label>
+        <br>
+        
         <br>
         <br>
-        <label for="userpass">Ingresa las contraseña:</label>
-        <input type="password" id="userpass">
         <br>
-        <button id="saveButton">Guardar</button>
+        <br>
+        <br>
+        <br>
+         
+        
+
+        <br>
+ 
+        <br>
+        <button id="saveButton">Iniciar sesíon</button>
  
     </div>
     <script src="/JDBRSTORE/Logica/Login.js"></script>
     <script src="/JDBRSTORE/Logica/DeleteBottom.js"></script>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 </body>
 </html>
