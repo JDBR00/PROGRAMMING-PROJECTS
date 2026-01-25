@@ -1,3 +1,8 @@
+fetch("NAVBAR.HTML")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("NavBar").innerHTML = data;
+
 // Selecciona el elemento con la clase "Bars" (icono del menú)
 Bars = document.querySelector(".Bars");
 
@@ -12,3 +17,5 @@ Bars.onclick = function() {
     // Si ya la tiene, la elimina
     NavBar.classList.toggle("active");
 }
+
+});
